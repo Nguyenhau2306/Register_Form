@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: linear-gradient(135deg, #0bbb78, #107280);
 }
 .container{
     max-width: 700px;
@@ -21,6 +21,7 @@ body{
     padding: 25px 30px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #634b9b, #41cfb8)
 }
 .container .title{
     font-size:25px;
@@ -33,15 +34,16 @@ body{
     left: 0;
     bottom: 0;
     height: 3px;
-    width: 30px;
+    width: 30%;
     border-radius: 5px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: linear-gradient(135deg, #191870, #ad7cc0);
 }
 .container form .user-details{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
+    
 }
 form .user-details .input-box{
     margin-bottom: 15px;
